@@ -30,6 +30,7 @@ header{
 list-style: none;
 display: inline-block;
 margin: 20px;
+
 }
 
 #menu li a{
@@ -37,7 +38,9 @@ margin: 20px;
     text-decoration: none;
     font-size: 22px;
 }
-
+#menu li a:hover{
+    color: #ffffff;
+    padding-left: 8px;}
 section{
     width: 100%;
     height: 100vh;
@@ -58,6 +61,7 @@ section{
 }
 #about{
  background-color: aquamarine;
+ 
 }
 #xyz{
 background-color: yellow;
@@ -67,6 +71,9 @@ background-color: slategray;
 }
 #snn{
 background-color: seagreen;
+background-image: url(img/s4bg.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
 }
 .container{
     
@@ -193,7 +200,7 @@ background-color: seagreen;
     inset: 0px 0px 0px 0px;
     width: 100%;
     pointer-events: none;
-    background-position: center top;
+    
 }
 .rock img:nth-child(1){
     position: absolute;
@@ -206,14 +213,14 @@ background-color: seagreen;
 }
 .rock img:nth-child(2){
     position: absolute;
-    height: 50%;
+    height: 45%;
     left: 0;
     bottom: 0;
     transition: 0.7s;
 }
 .rock img:nth-child(3){
     position: absolute;
-    height: 100%;
+    height: 90%;
     right: 0;
     bottom: -100px;
     rotate: -25deg;
