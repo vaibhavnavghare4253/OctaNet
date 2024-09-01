@@ -21,10 +21,19 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 20px 50px;
+    color: #333;
+    font-size: 30px;
     align-items: center;
     position: fixed;
     overflow: hidden;
+    
 
+}
+header a{
+  color: #333;
+    font-size: 40px;
+    font-weight: 400;
+    overflow: hidden;
 }
 #menu li{
 list-style: none;
@@ -202,7 +211,7 @@ linear-gradient(to right, #CDCDCDcc, #CDCDCDcc),url(img/s4bg.jpg);
     opacity: 0;
 }
 .product:hover{
-    bottom: 300px;
+    bottom: 240px;
 }
 .product:hover .soda:nth-child(2){
     opacity: 1;
@@ -272,6 +281,24 @@ linear-gradient(to right, #CDCDCDcc, #CDCDCDcc),url(img/s4bg.jpg);
 
 }
 
+
+.desc {
+  height: 100vh;
+  width: 100%;
+  padding: 90px 0;
+  width: 830px;
+  max-width: 55%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.desc .text h5 {
+  color: #333;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
 
 .about-us {
     display: flex;
